@@ -1,0 +1,48 @@
+//General settings
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+* {
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+}
+*:focus{
+    outline: none;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font: {
+      family: 'DM Sans', sans-serif;
+      size: 100% !important;
+        
+    }
+    height: 100%;
+    color: #000 !important;
+    text-align: center !important;
+    background: linear-gradient(118.87deg, #FFFFFF -17.53%, #E0EAF7 102.01%);
+    
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+ul{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+  }
